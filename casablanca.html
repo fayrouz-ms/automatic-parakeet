@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casablanca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .title {
+            font-size: 36px;
+            margin: 20px 0;
+            color: #0073e6;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        footer {
+            background: #0073e6;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .logo {
+    width: 50px; /* Largeur du cercle */
+    height: 50px; /* Hauteur du cercle */
+    background-color: #3498db; /* Couleur de fond */
+    border-radius: 50%; /* Rend l'élément circulaire */
+    position: absolute; /* Positionnement absolu */
+    top: 10px; /* Distance du haut */
+    left: 10px; /* Distance de la gauche */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <header> <img src="logo.png" alt="Logo" class="logo">
+        <h>Bienvenue à Casablanca</h></header>
+    <div class="title">Découverte de Casablanca</div>
+    <div class="container">
+        <div class="card">
+            <img src="c1.jpg" alt="Histoire de Casablanca">
+            <div class="card-content">
+                <h3>Histoire</h3>
+                <p>Casablanca, ville historique, a connu une grande expansion au XXe siècle, devenant un centre économique majeur du Maroc.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="c2.jpg" alt="Tourisme à Casablanca">
+            <div class="card-content">
+                <h3>Tourisme</h3>
+                <p>Avec sa corniche, ses restaurants et ses plages, Casablanca est une destination touristique moderne et dynamique.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="c3.jpg" alt="Mosquée Hassan II">
+            <div class="card-content">
+                <h3>Monuments</h3>
+                <p>La Mosquée Hassan II, chef-d'œuvre architectural, est l’un des monuments les plus impressionnants de Casablanca.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="c4.jpg" alt="Culture à Casablanca">
+            <div class="card-content">
+                <h3>Culture</h3>
+                <p>Casablanca offre une scène culturelle riche avec ses musées, galeries d’art et festivals tout au long de l’année.</p>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; 2025 Découverte du Maroc - Casablanca</footer>
+</body>
+</html>

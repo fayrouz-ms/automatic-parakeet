@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrakech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #3498db; /* couleur de l'en-tête */
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .title {
+            font-size: 36px;
+            margin: 20px 0;
+            color: #4a86e8; /* dégradation de la couleur */
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        footer {
+            background: #1a4d7a; /* dégradation de la couleur */
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .logo {
+    width: 50px; /* Largeur du cercle */
+    height: 50px; /* Hauteur du cercle */
+    background-color: #3498db; /* Couleur de fond */
+    border-radius: 50%; /* Rend l'élément circulaire */
+    position: absolute; /* Positionnement absolu */
+    top: 10px; /* Distance du haut */
+    left: 10px; /* Distance de la gauche */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Bienvenue à Marrakech</h1></header>
+    <div class="title">Découverte de Marrakech</div>
+    <div class="container">
+        <div class="card">
+            <img src="m1.jpg" alt="Ville rouge de Marrakech">
+            <div class="card-content">
+                <h3>La ville rouge</h3>
+                <p>Marrakech est surnommée la "ville rouge" en raison de la couleur ocre de ses bâtiments.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="m2.jpg" alt="Jardin Majorelle">
+            <div class="card-content">
+                <h3>Le jardin Majorelle</h3>
+                <p>Le jardin Majorelle est un jardin botanique créé par l'artiste français Jacques Majorelle.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="m3.jpg" alt="Place Jemaa el-Fna">
+            <div class="card-content">
+                <h3>La place Jemaa el-Fna</h3>
+                <p>La place Jemaa el-Fna est l'un des endroits les plus animés de Marrakech.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="m4.jpg" alt="Médina de Marrakech">
+            <div class="card-content">
+                <h3>La médina</h3>
+                <p>La médina de Marrakech est un quartier historique de la ville, connu pour ses ruelles étroites et ses souks.</p>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; 2025 Découverte du Maroc - Marrakech</footer>
+</body>
+</html>
+
+
+
